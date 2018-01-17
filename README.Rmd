@@ -1,0 +1,17 @@
+---
+title: "attrition-forecasting"
+author: "1st Lt Jacob T. Elliott"
+date: "`r format(Sys.Date(), '%d %B %Y')`"
+output: github_document
+keep_md: yes
+---
+
+<!-- don't ever edit README.md, go to README.Rmd instead -->
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+Howdy! This project is to supplement a Master's thesis focused on forecasting
+US Air Force officer attrition.
+
