@@ -1,0 +1,10 @@
+name: myfirstapp
+title:
+username:
+account: jtelliott
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 264995
+bundleId: 1197595
+url: https://jtelliott.shinyapps.io/myfirstapp/
+when: 1517232773.33137

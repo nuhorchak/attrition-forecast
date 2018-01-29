@@ -7,7 +7,7 @@ using namespace Rcpp;
 
 // rcpp_hello_world
 List rcpp_hello_world();
-RcppExport SEXP _attrition-forecast_rcpp_hello_world() {
+RcppExport SEXP _attrition_forecast_rcpp_hello_world() {
 BEGIN_RCPP
     Rcpp::RObject rcpp_result_gen;
     Rcpp::RNGScope rcpp_rngScope_gen;
@@ -17,11 +17,11 @@ END_RCPP
 }
 
 static const R_CallMethodDef CallEntries[] = {
-    {"_attrition-forecast_rcpp_hello_world", (DL_FUNC) &_attrition-forecast_rcpp_hello_world, 0},
+    {"_attrition_forecast_rcpp_hello_world", (DL_FUNC) &_attrition_forecast_rcpp_hello_world, 0},
     {NULL, NULL, 0}
 };
 
-RcppExport void R_init_attrition-forecast(DllInfo *dll) {
+RcppExport void R_init_attrition_forecast(DllInfo *dll) {
     R_registerRoutines(dll, NULL, CallEntries, NULL, NULL);
     R_useDynamicSymbols(dll, FALSE);
 }

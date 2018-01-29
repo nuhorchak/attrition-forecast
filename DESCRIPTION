@@ -1,4 +1,4 @@
-Package: attrition-forecast
+Package: attrition.forecast
 Type: Package
 Title: Forecast US Air Force Officer Attrition Using Regression with ARIMA Errors
 Version: 1.0
@@ -6,9 +6,9 @@ Date: 2018-01-17
 Author: Jake Elliott
 Maintainer: Jake Elliott <jaketelliott@gmail.com>
 Description: Generate and specify a regression model with ARIMA errors to forecast
-monthly attrition rates for US Air Force officers. Users can select exogeneous variables
-from a subset of predefined economic indicators; the response - attrition - will 
-be preloaded.
+    monthly attrition rates for US Air Force officers. Users can select exogenous variables
+    from a subset of predefined economic indicators; the response will 
+    be preloaded.
 License: GPL (>= 2)
 Imports: Rcpp (>= 0.12.14)
 LinkingTo: Rcpp
