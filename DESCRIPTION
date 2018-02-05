@@ -10,5 +10,7 @@ Description: Generate and specify a regression model with ARIMA errors to foreca
     from a subset of predefined economic indicators; the response will 
     be preloaded.
 License: GPL (>= 2)
-Imports: Rcpp (>= 0.12.14)
+Imports: Rcpp (>= 0.12.14), shiny
 LinkingTo: Rcpp
+RoxygenNote: 6.0.1
+Suggests: testthat

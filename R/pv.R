@@ -1,3 +1,14 @@
+#' @title Present value function
+#' 
+#' @description conomputes the present value of a sum given a future sum
+#' 
+#' @param FV a numeric vector of future values
+#' @param r the discount rate
+#' @param n = number of time steps between present and future
+#' 
+#' @return an numeric vector of present values
+#' 
+#' @export
 pv <- function(FV, r, n = 5) {
   
   if(!is.atomic(FV)) {
