@@ -7,7 +7,7 @@ test_that("pv provides proper messages and warnings", {
 test_that("pv has correct dimension and output type", {
   expect_is(pv(FV = 1000, 0.09, n = 5), "numeric")
   expect_true(is.vector(pv(FV = c(1000, 2000), 0.09, n= 5)))
-  expect_length(pv(FV - c(1000, 2000), 0.09, n = 5), 2)
+  expect_length(pv(FV = c(1000, 2000), 0.09, n = 5), 2)
 })
 
 test_that("pv computes correctly", {
