@@ -1,6 +1,6 @@
 ui <- fluidPage(title = "My First App!",
                 responsive = NULL,
-                theme = shinythemes::shinytheme('flatly'),
+                theme = shinythemes::themeSelector(),
     
 
                 sidebarLayout(
