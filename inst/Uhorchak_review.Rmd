@@ -1,0 +1,35 @@
+---
+title: "Uhorchak_Review"
+author: "Nicholas Uhorchak"
+date: "March 15, 2018"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+## Accuracy
+
+Unknown.  Although the UI is a good setup to execute an ARIMA model, there is no working linkage to show the results of the model.
+
+This issue precludes answer the second question, however with knowledge of forecasting, it seems that this would clearly link the parameters of an ARMIA model to the output.  IF this worked, the answer would be yes, it is clear.
+
+## Compilation
+
+Installation of the package worked.  It was unclear how to go aobut getting the app started until discussion with the author.  However, once understood, it worked to the extent that it presented a user interface.
+
+THere is no documentaiton to compare what was presented with what should happen.
+
+## Ease of Use
+
+No documentation for the shiny app, package documentation lacking.
+
+No plots were displayed, however there is significant potential given more work.
+
+## Overall
+Overall: Unsatisfactory – complete restart required (37 pts)
+Little progress made on proposal tasks - UI looks good, but does not synch properly with server.
+Little to no documentation - I cannot find documentation for your shiny app, and the package is lacking
+Cannot be compiled, unusable - this is the only thing that isn't poor, as the package loads properly. the app however, is lacking.
