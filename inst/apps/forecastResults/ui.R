@@ -9,9 +9,9 @@ ui <- fluidPage(
     # Inputs
     sidebarPanel(width = 3,
                  
-      selectInput(inputId = "iteration",
-                  label = "Iteration",
-                  choices = c()),           
+      # selectInput(inputId = "iteration",
+      #             label = "Iteration",
+      #             choices = c()),           
       
       #reg ar component
       sliderInput("ar",
